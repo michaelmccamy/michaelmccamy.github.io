@@ -1,153 +1,160 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Resume — Michael</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=JetBrains+Mono:wght@400;600&family=Newsreader:opsz,wght@6..72,300..700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<script src="./support.js"></script>
 </head>
-<body class="line-ew">
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resume · Michael McCamy</title>
+<link rel="stylesheet" href="_ds/broadsheet-adaa5d8c-dbf1-47e8-9416-03ab33e4369f/styles.css">
+<script src="_ds/broadsheet-adaa5d8c-dbf1-47e8-9416-03ab33e4369f/_ds_bundle.js"></script>
+<style>
+  body { margin: 0; --spot: #005ec4; }
+  a { color: var(--color-text); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+  a:hover { color: var(--spot); }
+  :focus-visible { outline: 2px solid var(--spot); outline-offset: 3px; }
+  ::selection { background: color-mix(in srgb, var(--spot) 22%, transparent); }
+</style>
+</helmet>
 
-<header class="masthead">
-  <div class="wrap masthead__inner">
-    <a class="brand" href="index.html">Michael <span>/</span> UF in Singapore</a>
-    <p class="social" style="margin-left:auto">
-      <a href="https://www.linkedin.com/in/REPLACE-YOUR-HANDLE/">LinkedIn</a>
-      <a href="https://github.com/REPLACE-YOUR-USERNAME">GitHub</a>
-      <a href="mailto:REPLACE@ufl.edu">Email</a>
-    </p>
-  </div>
-</header>
+<div style="min-height:100vh;background:var(--color-bg);color:var(--color-text);font-family:var(--font-body);font-size:18px;line-height:1.65">
 
-<nav class="route" aria-label="Portfolio sections">
-  <div class="wrap">
-    <ol class="route__list">
-      <li class="route__item"><a class="stop" href="index.html"><span class="stop__dot"></span><span class="stop__label">About Me</span></a></li>
-      <li class="route__item"><a class="stop" href="resume.html" aria-current="page"><span class="stop__dot"></span><span class="stop__label">Resume</span></a></li>
-      <li class="route__item"><a class="stop" href="singapore.html"><span class="stop__dot"></span><span class="stop__label">UF in Singapore</span></a></li>
-      <li class="route__item"><a class="stop" href="internship.html"><span class="stop__dot"></span><span class="stop__label">My Internship</span></a></li>
-      <li class="route__item"><a class="stop" href="skills.html"><span class="stop__dot"></span><span class="stop__label">Skills</span></a></li>
-    </ol>
-  </div>
-</nav>
-
-<main class="wrap">
-
-  <div class="pagehead">
-    <p class="eyebrow">Resume</p>
-    <h1>Resume</h1>
-    <p class="standfirst">Current as of August 2026, including my software engineering internship at Fuzzy AI in Singapore.</p>
-  </div>
-
-  <section class="section">
-    <div class="btn-row">
-      <a class="btn" href="files/michael-resume.pdf" download>Download PDF</a>
-      <a class="btn btn--ghost" href="files/michael-resume.pdf" target="_blank" rel="noopener">Open in new tab</a>
+  <header style="border-bottom:4px solid var(--color-text)">
+    <div style="max-width:1160px;margin:0 auto;padding:22px 40px 14px;display:flex;flex-wrap:wrap;align-items:baseline;gap:16px 32px">
+      <a href="index.html" style="text-decoration:none;font-size:22px;font-weight:600;letter-spacing:0.01em">Michael McCamy</a>
+      <span style="font-size:13px;text-transform:uppercase;letter-spacing:0.16em;color:var(--color-neutral-700)">e-Portfolio · Summer 2026</span>
+      <nav style="margin-left:auto;display:flex;gap:20px;font-size:13px;text-transform:uppercase;letter-spacing:0.14em">
+        <a href="https://www.linkedin.com/in/michaelmccamy/" style="text-decoration:none;color:var(--color-neutral-700)">LinkedIn</a>
+        <a href="mailto:michael.mccamy@ufl.edu" style="text-decoration:none;color:var(--color-neutral-700)">Email</a>
+      </nav>
     </div>
-    <p style="font-family:var(--mono);font-size:0.75rem;color:var(--ink-faint);max-width:56ch">Drop your resume into <code>files/</code> named <code>michael-resume.pdf</code> and both buttons work. You already rebuilt this resume with the Fuzzy AI internship and MediLens on it — that version is the one to use.</p>
-  </section>
+  </header>
 
-  <section class="section">
-    <div class="section__head"><span class="section__num">01</span><h2>Education</h2></div>
-    <div class="column">
-      <div class="job">
-        <div class="job__head">
-          <h3>University of Florida &mdash; B.S. Computer Science</h3>
-          <span class="job__when">Expected May 2027</span>
-        </div>
-        <p class="job__where">Gainesville, Florida</p>
-        <ul>
-          <li><span class="todo">GPA if it helps you. Relevant coursework — data structures, algorithms, operating systems, databases, whatever's real.</span></li>
-          <li>UF in Singapore study abroad program, Summer 2026.</li>
-        </ul>
-      </div>
+  <nav style="border-bottom:1px solid var(--color-divider)" aria-label="Sections">
+    <div style="max-width:1160px;margin:0 auto;padding:0 40px;display:flex;flex-wrap:wrap;gap:0 36px">
+      <a href="index.html" style="display:flex;align-items:center;gap:9px;padding:14px 0;text-decoration:none;font-size:14px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700)">
+        <span style="width:9px;height:9px;background:#d42e12;display:block"></span>About Me</a>
+      <a href="resume.html" aria-current="page" style="display:flex;align-items:center;gap:9px;padding:14px 0;text-decoration:none;font-size:14px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-text);box-shadow:inset 0 -4px 0 #005ec4">
+        <span style="width:9px;height:9px;background:#005ec4;display:block"></span>Resume</a>
+      <a href="singapore.html" style="display:flex;align-items:center;gap:9px;padding:14px 0;text-decoration:none;font-size:14px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700)">
+        <span style="width:9px;height:9px;background:#9900aa;display:block"></span>UF in Singapore</a>
+      <a href="internship.html" style="display:flex;align-items:center;gap:9px;padding:14px 0;text-decoration:none;font-size:14px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700)">
+        <span style="width:9px;height:9px;background:#009645;display:block"></span>My Internship</a>
+      <a href="skills.html" style="display:flex;align-items:center;gap:9px;padding:14px 0;text-decoration:none;font-size:14px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700)">
+        <span style="width:9px;height:9px;background:#fa9e0d;display:block"></span>Skills</a>
     </div>
-  </section>
+  </nav>
 
-  <section class="section">
-    <div class="section__head"><span class="section__num">02</span><h2>Experience</h2></div>
-    <div class="column">
+  <main style="max-width:1160px;margin:0 auto;padding:0 40px 100px">
 
-      <div class="job">
-        <div class="job__head">
-          <h3>Software Engineer Intern &mdash; Fuzzy AI</h3>
-          <span class="job__when"><span class="todo">Dates</span></span>
-        </div>
-        <p class="job__where">Singapore</p>
-        <ul>
-          <li><span class="todo">Bullet 1 — lead with the strongest thing you shipped. Format: verb + what you built + the stack + the measurable result. "Built X using Y, which cut Z by N%."</span></li>
-          <li><span class="todo">Bullet 2 — a different kind of contribution (debugging, testing, code review, working across a team).</span></li>
-          <li><span class="todo">Bullet 3 — scale or impact. Users served, records processed, latency improved, tests added.</span></li>
-          <li><span class="todo">Bullet 4 — optional, something collaborative or cross-cultural.</span></li>
-        </ul>
+    <div style="padding:64px 0 40px;display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:32px">
+      <div style="max-width:52ch">
+        <p style="margin:0 0 22px;font-size:13px;text-transform:uppercase;letter-spacing:0.2em;color:#005ec4">B.S. Computer Science, May 2027</p>
+        <h1 style="margin:0 0 24px;font-size:clamp(48px,7.5vw,92px);line-height:0.94;letter-spacing:-0.03em;font-weight:600">Resume</h1>
+        <p style="margin:0;max-width:46ch;font-size:22px;line-height:1.45;font-style:italic;color:var(--color-neutral-800)">407.488.0227 · michael.mccamy@ufl.edu · github.com/michaelmccamy</p>
       </div>
-
-      <div class="job">
-        <div class="job__head">
-          <h3><span class="todo">Any earlier role — previous internship, campus job, research, TA</span></h3>
-          <span class="job__when"><span class="todo">Dates</span></span>
-        </div>
-        <p class="job__where"><span class="todo">Location</span></p>
-        <ul>
-          <li><span class="todo">Delete this whole block if you don't have a second role yet.</span></li>
-        </ul>
-      </div>
-
+      <a href="resume.pdf" class="btn btn-primary" style="text-decoration:none">Download PDF</a>
     </div>
-  </section>
 
-  <section class="section">
-    <div class="section__head"><span class="section__num">03</span><h2>Projects</h2></div>
-    <div class="column">
-
-      <div class="job">
-        <div class="job__head">
-          <h3>MediLens &mdash; clinical documentation validator</h3>
-          <span class="job__when"><span class="todo">Dates</span></span>
+    <section style="padding:64px 0 0;display:grid;grid-template-columns:minmax(0,7ch) minmax(0,1fr);gap:0 40px">
+      <p style="margin:8px 0 0;font-size:15px;letter-spacing:0.1em;color:#005ec4">01</p>
+      <div style="max-width:70ch">
+        <h2 style="margin:0 0 26px;font-size:34px;line-height:1.15;letter-spacing:-0.015em">Education</h2>
+        <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px 24px">
+          <h3 style="margin:0;font-size:22px;font-weight:600">University of Florida</h3>
+          <p style="margin:0;font-size:14px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700);white-space:nowrap">May 2027</p>
         </div>
-        <p class="job__where">Python 3.11 &middot; Anthropic API</p>
-        <ul>
-          <li>Payer-aware clinical coding and documentation validation tool that flags documentation sufficiency and denial risk before a claim is submitted, targeted at orthopedics and pain medicine.</li>
-          <li>Built on a fail-closed design where every recommendation must cite the specific span of the clinical note it came from; developed and evaluated entirely on synthetic and de-identified data.</li>
-          <li><span class="todo">Add a link to the repo if it's public, or a short line about results/evals if it isn't.</span></li>
-        </ul>
+        <p style="margin:6px 0 14px;font-size:16px;color:var(--color-neutral-700)">B.S. Computer Science · GPA 3.91 / 4.00 · Gainesville, Florida</p>
+        <p style="margin:0 0 8px;max-width:66ch"><span style="color:var(--color-neutral-700)">Relevant coursework:</span> Data Structures and Algorithms, Introduction to Software Engineering, Information and Database Systems, Introduction to Computer Organization, Operating Systems.</p>
+        <p style="margin:0;max-width:66ch"><span style="color:var(--color-neutral-700)">Honors:</span> UF Dean's List (6x, August 2023 to present); AI Fundamentals and Applications Undergraduate Certification (in progress). Study abroad: UF in Singapore, Summer 2026.</p>
       </div>
+    </section>
 
-      <div class="job">
-        <div class="job__head">
-          <h3><span class="todo">Second project — coursework, hackathon, or side build</span></h3>
-          <span class="job__when"><span class="todo">Dates</span></span>
+    <section style="padding:64px 0 0;display:grid;grid-template-columns:minmax(0,7ch) minmax(0,1fr);gap:0 40px">
+      <p style="margin:8px 0 0;font-size:15px;letter-spacing:0.1em;color:#005ec4">02</p>
+      <div style="max-width:70ch">
+        <h2 style="margin:0 0 26px;font-size:34px;line-height:1.15;letter-spacing:-0.015em">Experience</h2>
+
+        <div style="padding-bottom:36px">
+          <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px 24px">
+            <h3 style="margin:0;font-size:22px;font-weight:600">Software Engineer Intern</h3>
+            <p style="margin:0;font-size:14px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700);white-space:nowrap">June 2026 to August 2026</p>
+          </div>
+          <p style="margin:6px 0 14px;font-size:16px;color:var(--color-neutral-700)">Fuzzy AI · Singapore</p>
+          <ul style="margin:0;padding-left:1.1em;max-width:66ch">
+            <li style="margin-bottom:8px">Built and shipped 100+ bug fixes and features in a production TypeScript/React codebase, tracked in Linear.</li>
+            <li style="margin-bottom:8px">Onboarded and interviewed 15+ users and analyzed PostHog usage data to surface and fix workflow pain points.</li>
+            <li style="margin-bottom:8px">Translated user feedback into prioritized engineering work, owning changes from proposal through deployment.</li>
+          </ul>
         </div>
-        <p class="job__where"><span class="todo">Stack</span></p>
-        <ul><li><span class="todo">One or two bullets. Delete the block if you'd rather keep this page tight.</span></li></ul>
+
+        <div>
+          <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px 24px">
+            <h3 style="margin:0;font-size:22px;font-weight:600">CanSat Flight Software Developer</h3>
+            <p style="margin:0;font-size:14px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700);white-space:nowrap">August 2024 to May 2026</p>
+          </div>
+          <p style="margin:6px 0 14px;font-size:16px;color:var(--color-neutral-700)">UF Space Systems and Design Club · Gainesville, Florida</p>
+          <ul style="margin:0;padding-left:1.1em;max-width:66ch">
+            <li style="margin-bottom:8px">Collaborated with a 4-person team to plan and develop flight software for a miniature satellite.</li>
+            <li style="margin-bottom:8px">Designed a graphical interface to track real-time telemetry data during launch and descent.</li>
+            <li style="margin-bottom:8px">Presented the flight software portion of Preliminary and Critical Design Reviews to the CanSat Competition Board.</li>
+          </ul>
+        </div>
       </div>
+    </section>
 
+    <section style="padding:64px 0 0;display:grid;grid-template-columns:minmax(0,7ch) minmax(0,1fr);gap:0 40px">
+      <p style="margin:8px 0 0;font-size:15px;letter-spacing:0.1em;color:#005ec4">03</p>
+      <div style="max-width:70ch">
+        <h2 style="margin:0 0 26px;font-size:34px;line-height:1.15;letter-spacing:-0.015em">Projects</h2>
+        <div style="padding-bottom:32px">
+          <h3 style="margin:0 0 12px;font-size:23px;font-weight:600">MediLens</h3>
+          <p style="margin:6px 0 14px;font-size:16px;color:var(--color-neutral-700)">Python, Anthropic API (Claude), Streamlit</p>
+          <ul style="margin:0;padding-left:1.1em;max-width:66ch">
+            <li style="margin-bottom:8px">Built a pre-claim denial-prevention tool that validates clinical notes against ICD-10-CM codes and payer policies, returning grounded code recommendations, documentation gaps, and a denial-risk score.</li>
+            <li style="margin-bottom:8px">Engineered a code-level verification layer that mechanically re-checks every LLM claim (cited note spans, candidate codes, policy clauses) so no ungrounded recommendation can reach output.</li>
+            <li style="margin-bottom:8px">Implemented PHI screening, effective-dated knowledge retrieval, and an append-only audit store, making every recommendation fully reconstructable.</li>
+            <li style="margin-bottom:8px">Wrote 163 automated tests, including regression tests that fail on upcoding or fabricated citations.</li>
+          </ul>
+        </div>
+        <div>
+          <h3 style="margin:0 0 12px;font-size:23px;font-weight:600">Task Manager REST API</h3>
+          <p style="margin:6px 0 14px;font-size:16px;color:var(--color-neutral-700)">Java, Spring Boot, PostgreSQL, React</p>
+          <ul style="margin:0;padding-left:1.1em;max-width:66ch">
+            <li style="margin-bottom:8px">Built a full-stack task management app with a Spring Boot REST API, PostgreSQL database, and React frontend supporting real-time task creation and updates.</li>
+            <li style="margin-bottom:8px">Designed the relational schema and validated all CRUD endpoints with Postman test suites.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding:64px 0 0;display:grid;grid-template-columns:minmax(0,7ch) minmax(0,1fr);gap:0 40px">
+      <p style="margin:8px 0 0;font-size:15px;letter-spacing:0.1em;color:#005ec4">04</p>
+      <div style="max-width:70ch">
+        <h2 style="margin:0 0 26px;font-size:34px;line-height:1.15;letter-spacing:-0.015em">Skills, Tools and Involvement</h2>
+        <dl style="margin:0">
+          <div style="padding:14px 0;border-bottom:1px solid var(--color-divider);display:flex;gap:16px"><dt style="flex:0 0 10rem;font-size:13px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700);padding-top:3px">Languages</dt><dd style="margin:0;font-size:17px">Python, TypeScript, JavaScript, Java, C/C++, SQL, R, MATLAB, HTML/CSS</dd></div>
+          <div style="padding:14px 0;border-bottom:1px solid var(--color-divider);display:flex;gap:16px"><dt style="flex:0 0 10rem;font-size:13px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700);padding-top:3px">Frameworks &amp; tools</dt><dd style="margin:0;font-size:17px">React, Spring Boot, Streamlit, Firebase, PostgreSQL, Git/GitHub, GitHub Copilot, Claude Code, Claude API, Linear, PostHog, Postman, Unity</dd></div>
+          <div style="padding:14px 0;border-bottom:1px solid var(--color-divider);display:flex;gap:16px"><dt style="flex:0 0 10rem;font-size:13px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700);padding-top:3px">Practices</dt><dd style="margin:0;font-size:17px">Agile/Scrum, REST API design, LLM application development</dd></div>
+          <div style="padding:14px 0;border-bottom:1px solid var(--color-divider);display:flex;gap:16px"><dt style="flex:0 0 10rem;font-size:13px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700);padding-top:3px">Volunteering</dt><dd style="margin:0;font-size:17px">MentorGNV, Stephen Foster Elementary School: weekly one-on-one math and science tutoring, January to April 2025</dd></div>
+        </dl>
+      </div>
+    </section>
+
+  </main>
+
+  <footer style="border-top:1px solid var(--color-divider)">
+    <div style="max-width:1160px;margin:0 auto;padding:24px 40px 48px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px;font-size:13px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700)">
+      <p style="margin:0">Michael McCamy · UF in Singapore · Summer 2026</p>
+      <p style="margin:0"><a href="https://www.linkedin.com/in/michaelmccamy/" style="color:var(--color-neutral-700)">LinkedIn</a> · <a href="mailto:michael.mccamy@ufl.edu" style="color:var(--color-neutral-700)">Email</a></p>
     </div>
-  </section>
+  </footer>
 
-  <section class="section">
-    <div class="section__head"><span class="section__num">04</span><h2>Technical skills</h2></div>
-    <div class="column">
-      <ul class="facts">
-        <li><span class="k">Languages</span><span><span class="todo">Python, Java, C, JavaScript…</span></span></li>
-        <li><span class="k">Frameworks</span><span><span class="todo">React, Flask, FastAPI…</span></span></li>
-        <li><span class="k">Tools</span><span><span class="todo">Git, Docker, pytest, Postgres…</span></span></li>
-        <li><span class="k">Coursework</span><span><span class="todo">Data structures, algorithms, OS, databases…</span></span></li>
-      </ul>
-    </div>
-  </section>
-
-</main>
-
-<footer class="footer">
-  <div class="wrap footer__inner">
-    <p>Michael &middot; UF in Singapore e-Portfolio &middot; Summer 2026</p>
-    <p><a href="https://www.linkedin.com/in/REPLACE-YOUR-HANDLE/">LinkedIn</a> &middot; <a href="https://github.com/REPLACE-YOUR-USERNAME">GitHub</a> &middot; <a href="mailto:REPLACE@ufl.edu">Email</a> &middot; <a href="index.html#contact">Contact</a></p>
-  </div>
-</footer>
-
+</div>
+</x-dc>
 </body>
 </html>

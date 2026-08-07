@@ -1,128 +1,280 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>UF in Singapore — Michael</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=JetBrains+Mono:wght@400;600&family=Newsreader:opsz,wght@6..72,300..700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<script src="./support.js"></script>
 </head>
-<body class="line-ne">
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UF in Singapore · Michael McCamy</title>
+<link rel="stylesheet" href="_ds/broadsheet-adaa5d8c-dbf1-47e8-9416-03ab33e4369f/styles.css">
+<script src="_ds/broadsheet-adaa5d8c-dbf1-47e8-9416-03ab33e4369f/_ds_bundle.js"></script>
+<style>
+  body { margin: 0; --spot: #9900aa; }
+  a { color: var(--color-text); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+  a:hover { color: var(--spot); }
+  :focus-visible { outline: 2px solid var(--spot); outline-offset: 3px; }
+  ::selection { background: color-mix(in srgb, var(--spot) 22%, transparent); }
+</style>
+</helmet>
 
-<header class="masthead">
-  <div class="wrap masthead__inner">
-    <a class="brand" href="index.html">Michael <span>/</span> UF in Singapore</a>
-    <p class="social" style="margin-left:auto">
-      <a href="https://www.linkedin.com/in/REPLACE-YOUR-HANDLE/">LinkedIn</a>
-      <a href="https://github.com/REPLACE-YOUR-USERNAME">GitHub</a>
-      <a href="mailto:REPLACE@ufl.edu">Email</a>
-    </p>
-  </div>
-</header>
+<div style="min-height:100vh;background:var(--color-bg);color:var(--color-text);font-family:var(--font-body);font-size:18px;line-height:1.65">
 
-<nav class="route" aria-label="Portfolio sections">
-  <div class="wrap">
-    <ol class="route__list">
-      <li class="route__item"><a class="stop" href="index.html"><span class="stop__dot"></span><span class="stop__label">About Me</span></a></li>
-      <li class="route__item"><a class="stop" href="resume.html"><span class="stop__dot"></span><span class="stop__label">Resume</span></a></li>
-      <li class="route__item"><a class="stop" href="singapore.html" aria-current="page"><span class="stop__dot"></span><span class="stop__label">UF in Singapore</span></a></li>
-      <li class="route__item"><a class="stop" href="internship.html"><span class="stop__dot"></span><span class="stop__label">My Internship</span></a></li>
-      <li class="route__item"><a class="stop" href="skills.html"><span class="stop__dot"></span><span class="stop__label">Skills</span></a></li>
-    </ol>
-  </div>
-</nav>
+  <header style="border-bottom:4px solid var(--color-text)">
+    <div style="max-width:1160px;margin:0 auto;padding:22px 40px 14px;display:flex;flex-wrap:wrap;align-items:baseline;gap:16px 32px">
+      <a href="index.html" style="text-decoration:none;font-size:22px;font-weight:600;letter-spacing:0.01em">Michael McCamy</a>
+      <span style="font-size:13px;text-transform:uppercase;letter-spacing:0.16em;color:var(--color-neutral-700)">e-Portfolio · Summer 2026</span>
+      <nav style="margin-left:auto;display:flex;gap:20px;font-size:13px;text-transform:uppercase;letter-spacing:0.14em">
+        <a href="https://www.linkedin.com/in/michaelmccamy/" style="text-decoration:none;color:var(--color-neutral-700)">LinkedIn</a>
+        <a href="mailto:michael.mccamy@ufl.edu" style="text-decoration:none;color:var(--color-neutral-700)">Email</a>
+      </nav>
+    </div>
+  </header>
 
-<main class="wrap">
+  <nav style="border-bottom:1px solid var(--color-divider)" aria-label="Sections">
+    <div style="max-width:1160px;margin:0 auto;padding:0 40px;display:flex;flex-wrap:wrap;gap:0 36px">
+      <a href="index.html" style="display:flex;align-items:center;gap:9px;padding:14px 0;text-decoration:none;font-size:14px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700)">
+        <span style="width:9px;height:9px;background:#d42e12;display:block"></span>About Me</a>
+      <a href="resume.html" style="display:flex;align-items:center;gap:9px;padding:14px 0;text-decoration:none;font-size:14px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700)">
+        <span style="width:9px;height:9px;background:#005ec4;display:block"></span>Resume</a>
+      <a href="singapore.html" aria-current="page" style="display:flex;align-items:center;gap:9px;padding:14px 0;text-decoration:none;font-size:14px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-text);box-shadow:inset 0 -4px 0 #9900aa">
+        <span style="width:9px;height:9px;background:#9900aa;display:block"></span>UF in Singapore</a>
+      <a href="internship.html" style="display:flex;align-items:center;gap:9px;padding:14px 0;text-decoration:none;font-size:14px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700)">
+        <span style="width:9px;height:9px;background:#009645;display:block"></span>My Internship</a>
+      <a href="skills.html" style="display:flex;align-items:center;gap:9px;padding:14px 0;text-decoration:none;font-size:14px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700)">
+        <span style="width:9px;height:9px;background:#fa9e0d;display:block"></span>Skills</a>
+    </div>
+  </nav>
 
-  <div class="pagehead">
-    <p class="eyebrow">Study Abroad</p>
-    <h1>UF in Singapore</h1>
-    <p class="standfirst">A term of coursework, an engineering internship, and a lot of time spent working out how a city this dense actually holds together.</p>
-  </div>
+  <main style="max-width:1160px;margin:0 auto;padding:0 40px 100px">
 
-  <section class="section">
-    <div class="section__head"><span class="section__num">01</span><h2>The program</h2></div>
-    <div class="column">
-      <span class="todo">Two or three paragraphs of overview. What the program was, how long, where you lived, what the structure looked like (class + internship), and what your first week felt like versus your last. This is scene-setting — the reflection questions below carry the analysis.</span>
-      <p><span class="todo">Write it here.</span></p>
+    <div style="padding:64px 0 40px;max-width:56ch">
+      <p style="margin:0 0 22px;font-size:13px;text-transform:uppercase;letter-spacing:0.2em;color:#9900aa">Study Abroad · Summer 2026</p>
+      <h1 style="margin:0;font-size:clamp(40px,6.2vw,76px);line-height:1;letter-spacing:-0.03em;font-weight:600;white-space:nowrap">UF in Singapore</h1>
     </div>
 
-    <div class="gallery" style="margin-top:2rem">
-      <figure>
-        <img src="images/singapore-1.jpg" alt="">
-        <figcaption><span class="todo">Caption: where, when, why it mattered. Your own photo — no stock images.</span></figcaption>
-      </figure>
-      <figure>
-        <img src="images/singapore-2.jpg" alt="">
-        <figcaption><span class="todo">Caption.</span></figcaption>
-      </figure>
-      <figure>
-        <img src="images/singapore-3.jpg" alt="">
-        <figcaption><span class="todo">Caption.</span></figcaption>
-      </figure>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="section__head"><span class="section__num">02</span><h2>Cultural Storytelling project</h2></div>
-    <div class="column">
-      <p style="font-family:var(--mono);font-size:0.75rem;color:var(--ink-faint)">Required: your Module 4 submission goes here, in full.</p>
-      <span class="todo">Paste your Cultural Storytelling project below. If it was a video, embed it with the iframe already set up underneath. If it was a photo essay, use the gallery pattern from section 01. If it was written, paste the text and add the images that went with it.</span>
-    </div>
-
-    <figure style="margin-top:1.5rem">
-      <div style="position:relative;padding-top:56.25%;background:var(--card);border:1px solid var(--rule);border-radius:3px">
-        <iframe src="" title="Cultural Storytelling project" style="position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:3px" allowfullscreen></iframe>
-      </div>
-      <figcaption>If your project was a video: paste the YouTube <em>embed</em> URL (<code>https://www.youtube.com/embed/VIDEO_ID</code>) into the <code>src</code> of the iframe. If it wasn't a video, delete this whole figure.</figcaption>
+    <figure style="margin:0 0 8px">
+      <img src="images/marina-barrage.jpg" alt="Kite flying on the lawn at Marina Barrage at sunset, with the Singapore skyline behind" style="display:block;width:100%;height:clamp(300px,44vw,520px);object-fit:cover;object-position:center 55%">
+      <figcaption style="margin-top:12px;max-width:60ch;font-size:14px;line-height:1.5;color:var(--color-neutral-700)">Sunset at Marina Barrage.</figcaption>
     </figure>
 
-    <div class="column" style="margin-top:1.5rem">
-      <span class="todo">If the project was written or photo-based, paste it here instead and delete the iframe above.</span>
+    <section style="padding:64px 0 0;display:grid;grid-template-columns:minmax(0,7ch) minmax(0,1fr);gap:0 40px">
+      <p style="margin:8px 0 0;font-size:15px;letter-spacing:0.1em;color:#9900aa">01</p>
+      <div>
+        <h2 style="margin:0 0 26px;font-size:34px;line-height:1.15;letter-spacing:-0.015em">The Program</h2>
+        <p style="margin:0 0 20px;max-width:62ch">The UF in Singapore program paired coursework with a working internship placement, so the classroom material and the job informed each other in real time. The coursework covered career readiness, professional goal setting, and cultural adjustment, and included a pre-program and post-program self-assessment that made it possible to measure growth instead of guessing at it. My placement was a software role at Fuzzy AI, a small B2B SaaS startup, which I worked at through the summer.</p>
+        <p style="margin:0 0 20px;max-width:62ch">I lived in Farrer Park, right next to Little India, and got around the city on the MRT. Adjusting was easier than I expected, mostly because English is used everywhere, so the friction was practical rather than linguistic. Outside of work I ate a lot of local Indian food and spent time at hawker centers like Tekka Centre. I explored Gardens by the Bay, Chinatown, and Sentosa, went to the beach on weekends, and hiked the TreeTop Walk, where we ran into monkeys on the trail.</p>
+        <p style="margin:0;max-width:62ch">Professionally, the bigger adjustment was working on a globally distributed team. My coworkers were spread across India, Australia, and Singapore, so most coordination happened asynchronously over Slack and Google Meet rather than in person. I came in hoping to learn what building a real software product looks like from the inside. What I got was faster and heavier than I expected, and more useful because of it.</p>
+
+        <div style="margin-top:44px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:32px">
+          <figure style="margin:0">
+            <img src="images/treetop-group.jpg" alt="The UF cohort on the TreeTop Walk suspension bridge" style="display:block;width:100%;aspect-ratio:4/5;object-fit:cover">
+            <figcaption style="margin-top:12px;font-size:14px;line-height:1.5;color:var(--color-neutral-700)">The TreeTop Walk, where we ran into monkeys on the trail.</figcaption>
+          </figure>
+          <figure style="margin:0">
+            <img src="images/local-food.jpg" alt="A plate of rice, curry and greens at a local restaurant" style="display:block;width:100%;aspect-ratio:4/5;object-fit:cover">
+            <figcaption style="margin-top:12px;font-size:14px;line-height:1.5;color:var(--color-neutral-700)">Lunch from a nearby hawker center.</figcaption>
+          </figure>
+          <figure style="margin:0">
+            <img src="images/housing.jpg" alt="Public housing towers and a green-facade building in central Singapore" style="display:block;width:100%;aspect-ratio:4/5;object-fit:cover">
+            <figcaption style="margin-top:12px;font-size:14px;line-height:1.5;color:var(--color-neutral-700)">Public housing in the middle of the city, not at the edge of it.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding:64px 0 0;display:grid;grid-template-columns:minmax(0,7ch) minmax(0,1fr);gap:0 40px">
+      <p style="margin:8px 0 0;font-size:15px;letter-spacing:0.1em;color:#9900aa">02</p>
+      <div>
+        <h2 style="margin:0 0 10px;font-size:34px;line-height:1.15;letter-spacing:-0.015em">Cultural Storytelling Project</h2>
+        <p style="margin:0 0 32px;font-size:14px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700)">Cultural artifact analysis · A photo essay · Singapore and Malacca</p>
+
+        <div style="margin-bottom:44px;max-width:62ch">
+          <p style="margin:0 0 8px;font-size:13px;text-transform:uppercase;letter-spacing:0.18em;color:#9900aa">Part one · Singapore</p>
+          <p style="margin:0;font-size:17px;line-height:1.6">Hawker food culture and urban design: how a multicultural city makes everyday life shared, affordable, and green.</p>
+        </div>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:36px;align-items:start;margin-bottom:56px">
+          <figure style="margin:0">
+            <img src="images/ce1.jpg" alt="Hawker center meal" style="display:block;width:100%;aspect-ratio:4/5;object-fit:cover">
+          </figure>
+          <div>
+            <p style="margin:0 0 8px;font-size:12px;text-transform:uppercase;letter-spacing:0.18em;color:var(--color-neutral-700)">Photo 1 · Singapore</p>
+            <h3 style="margin:0 0 10px;font-size:26px;line-height:1.2;font-weight:600">Hawker center meal</h3>
+            <p style="margin:0 0 16px;font-size:12px;text-transform:uppercase;letter-spacing:0.16em;color:#9900aa">Multiculturalism · Accessibility · Shared identity</p>
+            <p style="margin:0 0 16px;font-size:17px;line-height:1.6">This meal from a Singapore hawker center shows how food brings together different cultural traditions in one shared space. The rice, vegetables, and curry represent influences from Chinese, Malay, and Indian cuisines.</p>
+            <p style="margin:0;font-size:17px;line-height:1.6">Hawker culture reflects Singapore's multicultural society by making diverse foods affordable and accessible to everyone. Everyday meals become part of national identity.</p>
+          </div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:36px;align-items:start;margin-bottom:56px">
+          <figure style="margin:0">
+            <img src="images/ce2.jpg" alt="Local mixed rice dish" style="display:block;width:100%;aspect-ratio:4/5;object-fit:cover">
+          </figure>
+          <div>
+            <p style="margin:0 0 8px;font-size:12px;text-transform:uppercase;letter-spacing:0.18em;color:var(--color-neutral-700)">Photo 2 · Singapore</p>
+            <h3 style="margin:0 0 10px;font-size:26px;line-height:1.2;font-weight:600">Local mixed rice dish</h3>
+            <p style="margin:0 0 16px;font-size:12px;text-transform:uppercase;letter-spacing:0.16em;color:#9900aa">Multiculturalism · Diversity in daily life</p>
+            <p style="margin:0 0 16px;font-size:17px;line-height:1.6">This plate of mixed rice highlights the variety of dishes available in Singapore. Customers choose different meats and vegetables to create a personalized meal, reflecting the country's cultural diversity.</p>
+            <p style="margin:0;font-size:17px;line-height:1.6">The combination of foods from different traditions demonstrates how multiculturalism is part of daily life rather than just a historical idea.</p>
+          </div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:36px;align-items:start;margin-bottom:56px">
+          <figure style="margin:0">
+            <img src="images/ce3.jpg" alt="Parks and urban design" style="display:block;width:100%;aspect-ratio:4/5;object-fit:cover">
+          </figure>
+          <div>
+            <p style="margin:0 0 8px;font-size:12px;text-transform:uppercase;letter-spacing:0.18em;color:var(--color-neutral-700)">Photo 3 · Singapore</p>
+            <h3 style="margin:0 0 10px;font-size:26px;line-height:1.2;font-weight:600">Parks and urban design</h3>
+            <p style="margin:0 0 16px;font-size:12px;text-transform:uppercase;letter-spacing:0.16em;color:#9900aa">Sustainability · Planning · Quality of life</p>
+            <p style="margin:0 0 16px;font-size:17px;line-height:1.6">This view shows one of Singapore's large green spaces surrounded by modern apartment buildings. The city is known for combining urban development with nature, creating parks that are easy for residents to enjoy.</p>
+            <p style="margin:0;font-size:17px;line-height:1.6">It reflects values of sustainability, planning, and quality of life, showing that economic growth does not have to come at the expense of the environment.</p>
+          </div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:36px;align-items:start;margin-bottom:56px">
+          <figure style="margin:0">
+            <img src="images/ce4.jpg" alt="Gardens by the Bay" style="display:block;width:100%;aspect-ratio:4/5;object-fit:cover">
+          </figure>
+          <div>
+            <p style="margin:0 0 8px;font-size:12px;text-transform:uppercase;letter-spacing:0.18em;color:var(--color-neutral-700)">Photo 4 · Singapore</p>
+            <h3 style="margin:0 0 10px;font-size:26px;line-height:1.2;font-weight:600">Gardens by the Bay</h3>
+            <p style="margin:0 0 16px;font-size:12px;text-transform:uppercase;letter-spacing:0.16em;color:#9900aa">Innovation · Sustainability · National image</p>
+            <p style="margin:0 0 16px;font-size:17px;line-height:1.6">Gardens by the Bay combines advanced engineering with natural landscapes. The glass conservatory represents Singapore's focus on innovation while also promoting environmental sustainability.</p>
+            <p style="margin:0;font-size:17px;line-height:1.6">The landmark has become a symbol of Singapore's modern identity, showing how technology and nature can work together instead of competing.</p>
+          </div>
+        </div>
+
+        <div style="margin:64px 0 44px;max-width:62ch">
+          <p style="margin:0 0 8px;font-size:13px;text-transform:uppercase;letter-spacing:0.18em;color:#9900aa">Part two · Malacca</p>
+          <p style="margin:0;font-size:17px;line-height:1.6">Jonker Street and Peranakan heritage: a historic trading port that preserves its past while adapting to tourism and modern life.</p>
+        </div>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:36px;align-items:start;margin-bottom:56px">
+          <figure style="margin:0">
+            <img src="images/ce5.jpg" alt="Jonker Street night market" style="display:block;width:100%;aspect-ratio:4/5;object-fit:cover">
+          </figure>
+          <div>
+            <p style="margin:0 0 8px;font-size:12px;text-transform:uppercase;letter-spacing:0.18em;color:var(--color-neutral-700)">Photo 5 · Malacca</p>
+            <h3 style="margin:0 0 10px;font-size:26px;line-height:1.2;font-weight:600">Jonker Street night market</h3>
+            <p style="margin:0 0 16px;font-size:12px;text-transform:uppercase;letter-spacing:0.16em;color:#9900aa">Trade · Cultural exchange · Heritage</p>
+            <p style="margin:0 0 16px;font-size:17px;line-height:1.6">Jonker Street is one of the most well-known cultural areas in Malacca. The market is filled with local food vendors, shops, and entertainment that reflect the city's history as a center of trade and cultural exchange.</p>
+            <p style="margin:0;font-size:17px;line-height:1.6">While tourism is important today, the street continues to preserve local traditions and cultural heritage.</p>
+          </div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:36px;align-items:start;margin-bottom:56px">
+          <figure style="margin:0">
+            <img src="images/ce6.jpg" alt="Street food vendor" style="display:block;width:100%;aspect-ratio:4/5;object-fit:cover">
+          </figure>
+          <div>
+            <p style="margin:0 0 8px;font-size:12px;text-transform:uppercase;letter-spacing:0.18em;color:var(--color-neutral-700)">Photo 6 · Malacca</p>
+            <h3 style="margin:0 0 10px;font-size:26px;line-height:1.2;font-weight:600">Street food vendor</h3>
+            <p style="margin:0 0 16px;font-size:12px;text-transform:uppercase;letter-spacing:0.16em;color:#9900aa">Craftsmanship · Entrepreneurship · Tradition</p>
+            <p style="margin:0 0 16px;font-size:17px;line-height:1.6">This food stand represents the importance of local businesses and traditional street food in Malacca. Vendors prepare food in front of customers using recipes often passed down through generations.</p>
+            <p style="margin:0;font-size:17px;line-height:1.6">The market reflects craftsmanship, entrepreneurship, and the role food plays in preserving cultural identity, even as QR-code payments show tradition adapting to modern life.</p>
+          </div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:36px;align-items:start;margin-bottom:56px">
+          <figure style="margin:0">
+            <img src="images/ce7.jpg" alt="Dutch Square fountain" style="display:block;width:100%;aspect-ratio:4/5;object-fit:cover">
+          </figure>
+          <div>
+            <p style="margin:0 0 8px;font-size:12px;text-transform:uppercase;letter-spacing:0.18em;color:var(--color-neutral-700)">Photo 7 · Malacca</p>
+            <h3 style="margin:0 0 10px;font-size:26px;line-height:1.2;font-weight:600">Dutch Square fountain</h3>
+            <p style="margin:0 0 16px;font-size:12px;text-transform:uppercase;letter-spacing:0.16em;color:#9900aa">Colonial history · Preservation · Adaptation</p>
+            <p style="margin:0 0 16px;font-size:17px;line-height:1.6">The fountain at Dutch Square reflects Malacca's colonial history and the influence of European powers on the city.</p>
+            <p style="margin:0;font-size:17px;line-height:1.6">Today, the area has become a public gathering place that combines historical landmarks with local businesses and tourism, showing Malacca preserving its past while adapting to modern cultural and economic life.</p>
+          </div>
+        </div>
+
+        <div style="margin-bottom:56px">
+          <figure style="margin:0 0 24px">
+            <img src="images/ce8.jpg" alt="The Independence Memorial Building in Malacca" style="display:block;width:100%;aspect-ratio:3/1;object-fit:cover">
+          </figure>
+          <div style="max-width:62ch">
+            <p style="margin:0 0 8px;font-size:12px;text-transform:uppercase;letter-spacing:0.18em;color:var(--color-neutral-700)">Photo 8 · Malacca</p>
+            <h3 style="margin:0 0 10px;font-size:26px;line-height:1.2;font-weight:600">Independence Memorial Building</h3>
+            <p style="margin:0 0 16px;font-size:12px;text-transform:uppercase;letter-spacing:0.16em;color:#9900aa">National identity · Memory · Shared future</p>
+            <p style="margin:0;font-size:17px;line-height:1.6">The Independence Memorial reminds visitors of Malaysia's path toward independence and national identity. The building connects the country's colonial past with its present as an independent nation, reflecting the importance of remembering history while building a shared identity for future generations.</p>
+          </div>
+        </div>
+
+        <div style="max-width:56ch">
+          <p style="margin:0 0 12px;font-size:13px;text-transform:uppercase;letter-spacing:0.18em;color:#9900aa">Closing reflection</p>
+          <p style="margin:0 0 16px;font-size:24px;line-height:1.35;font-style:italic;color:var(--color-neutral-800)">Both cities value diversity, heritage, and progress.</p>
+          <p style="margin:0;font-size:17px;line-height:1.6">Instead of replacing the past with modern development, Singapore and Malacca have found ways to preserve their history while adapting to the present.</p>
+        </div>
+      </div>
+    </section>
+
+    <div style="margin-top:80px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:32px">
+      <figure style="margin:0">
+        <img src="images/gardens-day.jpg" alt="Fountains, the Singapore Flyer and the Supertrees at Gardens by the Bay" style="display:block;width:100%;aspect-ratio:4/3;object-fit:cover">
+        <figcaption style="margin-top:12px;font-size:14px;line-height:1.5;color:var(--color-neutral-700)">Gardens by the Bay in the afternoon.</figcaption>
+      </figure>
+      <figure style="margin:0">
+        <img src="images/gardens-night.jpg" alt="The Supertrees lit up at night at Gardens by the Bay" style="display:block;width:100%;aspect-ratio:4/3;object-fit:cover">
+        <figcaption style="margin-top:12px;font-size:14px;line-height:1.5;color:var(--color-neutral-700)">And the same place after dark.</figcaption>
+      </figure>
     </div>
-  </section>
 
-  <section class="section">
-    <div class="section__head"><span class="section__num">03</span><h2>Reflection</h2></div>
-    <div class="column">
+    <section style="padding:64px 0 0;display:grid;grid-template-columns:minmax(0,7ch) minmax(0,1fr);gap:0 40px">
+      <p style="margin:8px 0 0;font-size:15px;letter-spacing:0.1em;color:#9900aa">03</p>
+      <div style="max-width:64ch">
+        <h2 style="margin:0 0 26px;font-size:34px;line-height:1.15;letter-spacing:-0.015em">Reflection</h2>
+        
 
-      <div class="qa">
-        <p class="qa__q">What did I learn about local culture — through the planned activities and excursions, and on my own?</p>
-        <span class="todo">Anchor this in specific moments rather than generalisations. One planned excursion and one thing you found by yourself works well. Useful angles: what you noticed about how Singaporeans handle disagreement or hierarchy; the multilingual reality of Singlish, Mandarin, Malay and Tamil in one conversation; what hawker centres told you about how the city is organised; how public housing policy shapes who lives next to whom. Name the thing you got wrong at first and what corrected it.</span>
-        <p><span class="todo">Write it here.</span></p>
+        <div style="margin-bottom:52px">
+          <h3 style="margin:0 0 16px;font-size:24px;line-height:1.3;font-weight:600">What did I learn about local culture, through the planned activities and excursions and on my own?</h3>
+          <p style="margin:0 0 20px;max-width:62ch">The thing I did not expect was how little of the adjustment was linguistic. English is used everywhere, so the friction was practical: how you queue, how you pay, how the MRT organises a day. Living in Farrer Park, next to Little India, meant the version of the city I saw daily was not the postcard one. I ate a lot of local Indian food and spent time at hawker centers like Tekka Centre, where the mix of people sitting at the same tables says more about how the city works than any excursion did.</p>
+          <p style="margin:0;max-width:62ch">The planned side, Gardens by the Bay, Chinatown, Sentosa, and the TreeTop Walk, showed me how deliberately the country is built: green space, transport, and housing designed rather than accumulated. What corrected my first impression was realising that the order I was reading as sterile is what makes a city this dense livable for the people in it.</p>
+        </div>
+
+        <div style="margin-bottom:52px">
+          <h3 style="margin:0 0 16px;font-size:24px;line-height:1.3;font-weight:600">What did I find challenging about studying and working abroad?</h3>
+          <p style="margin:0 0 20px;max-width:62ch">The first was the distributed team. My coworkers were spread across India, Australia, and Singapore, so most coordination happened asynchronously over Slack and Google Meet. An incomplete message cost a full day of waiting for the answer, which forced me to write with more care than I ever had to in a classroom: say what I tried, what I expected, and what I need, in one message.</p>
+          <p style="margin:0;max-width:62ch">The second was pace. I came in hoping to learn what building a real software product looks like from the inside, and what I got was faster and heavier than I expected. On a team of seven there was no ramp: I was reading a codebase I did not write and shipping into it. The Product Hunt launch was the sharpest version of that, a single day with a hard deadline, my work public and able to be wrong in front of people.</p>
+        </div>
+
+        <div style="margin-bottom:52px">
+          <h3 style="margin:0 0 16px;font-size:24px;line-height:1.3;font-weight:600">What lessons did I take from the experience?</h3>
+          <p style="margin:0 0 20px;max-width:62ch">The one that changed the most was this: working code doesn't matter much if it isn't solving the right problem. Talking to potential customers directly taught me that, and it changed how I evaluated my own work for the rest of the internship.</p>
+          <p style="margin:0 0 20px;max-width:62ch">The second is that not knowing is a normal state. When an attendee at our user workshop hit an issue I had never seen, I diagnosed it live and got back to him before the session ended. The useful skill was not having the answer, it was being fast and honest about closing the gap.</p>
+          <p style="margin:0;max-width:62ch">The third is about myself. I went in expecting to move toward product and growth work with technical fluency as support. The internship reversed that. Engineering turned out to be the part I want to be doing, and the product and customer instincts are what make the engineering better rather than the destination.</p>
+        </div>
+
+        <div style="margin-bottom:52px">
+          <h3 style="margin:0 0 16px;font-size:24px;line-height:1.3;font-weight:600">How will I use this intercultural experience back at UF and in my career?</h3>
+          <p style="margin:0 0 20px;max-width:62ch">At UF, the immediate change is how I work with other people. On group projects I write the way I learned to write for a team eleven time zones wide: complete messages, stated assumptions, no waiting to be assigned things. I also stopped treating silence as agreement, which matters as much in a project team as it did on a workshop floor.</p>
+          <p style="margin:0;max-width:62ch">Professionally, I want to keep working on distributed teams and stay close to the people using what I build. Both of the things I am best at now came from that combination, and I would take another role abroad without hesitating.</p>
+        </div>
       </div>
+    </section>
 
-      <div class="qa">
-        <p class="qa__q">What did I find challenging about studying and working abroad?</p>
-        <span class="todo">Be honest and specific — vague difficulty reads as filler. Candidates: communication norms at Fuzzy AI that differed from what you expected; being the most junior person on a team in a country you'd just arrived in; heat and humidity affecting your working rhythm; cost of living; the gap between coursework code and production code; homesickness or time-zone isolation from people back home. Pick two and say what you actually did about them.</span>
-        <p><span class="todo">Write it here.</span></p>
-      </div>
+    <nav style="padding:64px 0 0;display:flex;gap:36px;flex-wrap:wrap" aria-label="Next">
+      <a href="internship.html" style="text-decoration:none;max-width:34ch">
+        <span style="display:block;font-size:13px;text-transform:uppercase;letter-spacing:0.16em;color:var(--color-neutral-700);margin-bottom:10px">Next</span>
+        <span style="display:block;width:100%;height:4px;background:#009645;margin-bottom:14px"></span>
+        <span style="display:block;font-size:26px;font-weight:600">My Internship</span>
+      </a>
+    </nav>
 
-      <div class="qa">
-        <p class="qa__q">What lessons did I take from the experience?</p>
-        <span class="todo">The strongest version of this answer names something you believed before the term that you don't believe now. Draw from the internship, from exploring, or both. Keep it to two or three lessons with real evidence behind each — a padded list of five is weaker than two you can prove.</span>
-        <p><span class="todo">Write it here.</span></p>
-      </div>
+  </main>
 
-      <div class="qa">
-        <p class="qa__q">How will I use this intercultural experience back at UF and in my career?</p>
-        <span class="todo">Two halves. At UF: group projects, student orgs, international classmates, courses you'll pick differently. Professionally: distributed teams, working with colleagues across time zones, building software for users who aren't like you, and any interest in working abroad again. Make it concrete — a named plan beats a stated intention.</span>
-        <p><span class="todo">Write it here.</span></p>
-      </div>
-
+  <footer style="border-top:1px solid var(--color-divider)">
+    <div style="max-width:1160px;margin:0 auto;padding:24px 40px 48px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px;font-size:13px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700)">
+      <p style="margin:0">Michael McCamy · UF in Singapore · Summer 2026</p>
+      <p style="margin:0"><a href="https://www.linkedin.com/in/michaelmccamy/" style="color:var(--color-neutral-700)">LinkedIn</a> · <a href="mailto:michael.mccamy@ufl.edu" style="color:var(--color-neutral-700)">Email</a></p>
     </div>
-  </section>
+  </footer>
 
-</main>
-
-<footer class="footer">
-  <div class="wrap footer__inner">
-    <p>Michael &middot; UF in Singapore e-Portfolio &middot; Summer 2026</p>
-    <p><a href="https://www.linkedin.com/in/REPLACE-YOUR-HANDLE/">LinkedIn</a> &middot; <a href="https://github.com/REPLACE-YOUR-USERNAME">GitHub</a> &middot; <a href="mailto:REPLACE@ufl.edu">Email</a> &middot; <a href="index.html#contact">Contact</a></p>
-  </div>
-</footer>
-
+</div>
+</x-dc>
 </body>
 </html>

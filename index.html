@@ -1,156 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Michael — UF in Singapore e-Portfolio</title>
-<meta name="description" content="E-portfolio documenting a Computer Science study abroad and software engineering internship in Singapore.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=JetBrains+Mono:wght@400;600&family=Newsreader:opsz,wght@6..72,300..700&family=Noto+Sans+SC:wght@400&family=Noto+Sans+Tamil:wght@400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<script src="./support.js"></script>
 </head>
-<body class="line-ns">
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Michael McCamy · UF in Singapore</title>
+<link rel="stylesheet" href="_ds/broadsheet-adaa5d8c-dbf1-47e8-9416-03ab33e4369f/styles.css">
+<script src="_ds/broadsheet-adaa5d8c-dbf1-47e8-9416-03ab33e4369f/_ds_bundle.js"></script>
+<style>
+  body { margin: 0; --spot: #d42e12; }
+  a { color: var(--color-text); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+  a:hover { color: var(--spot); }
+  :focus-visible { outline: 2px solid var(--spot); outline-offset: 3px; }
+  ::selection { background: color-mix(in srgb, var(--spot) 22%, transparent); }
+</style>
+</helmet>
 
-<header class="masthead">
-  <div class="wrap masthead__inner">
-    <a class="brand" href="index.html">Michael <span>/</span> UF in Singapore</a>
-    <p class="social" style="margin-left:auto">
-      <a href="https://www.linkedin.com/in/REPLACE-YOUR-HANDLE/">LinkedIn</a>
-      <a href="https://github.com/REPLACE-YOUR-USERNAME">GitHub</a>
-      <a href="mailto:REPLACE@ufl.edu">Email</a>
-    </p>
-  </div>
-</header>
+<div style="min-height:100vh;background:var(--color-bg);color:var(--color-text);font-family:var(--font-body);font-size:18px;line-height:1.65">
 
-<nav class="route" aria-label="Portfolio sections">
-  <div class="wrap">
-    <ol class="route__list">
-      <li class="route__item"><a class="stop" href="index.html" aria-current="page"><span class="stop__dot"></span><span class="stop__label">About Me</span></a></li>
-      <li class="route__item"><a class="stop" href="resume.html"><span class="stop__dot"></span><span class="stop__label">Resume</span></a></li>
-      <li class="route__item"><a class="stop" href="singapore.html"><span class="stop__dot"></span><span class="stop__label">UF in Singapore</span></a></li>
-      <li class="route__item"><a class="stop" href="internship.html"><span class="stop__dot"></span><span class="stop__label">My Internship</span></a></li>
-      <li class="route__item"><a class="stop" href="skills.html"><span class="stop__dot"></span><span class="stop__label">Skills</span></a></li>
-    </ol>
-  </div>
-</nav>
-
-<main class="wrap">
-
-  <section class="hero">
-    <div>
-      <ul class="hello">
-        <li><span class="lang">English</span> Hello, I'm</li>
-        <li><span class="lang">Mandarin</span> <span lang="zh">你好，我是</span></li>
-        <li><span class="lang">Malay</span> <span lang="ms">Helo, saya</span></li>
-        <li><span class="lang">Tamil</span> <span lang="ta">வணக்கம், நான்</span></li>
-      </ul>
-
-      <h1 class="hero__name">Michael</h1>
-
-      <p class="hero__roles">
-        <span>Computer Science, UF</span>
-        <span>Software Engineer Intern</span>
-        <span>Singapore, 2026</span>
-      </p>
-
-      <p class="standfirst">Four official languages, one small island, and a summer spent building software in it. This portfolio covers what I did at Fuzzy AI, what the city taught me, and what I can do now that I couldn't in May.</p>
-
-      <div class="btn-row" style="margin-top:1.75rem">
-        <a class="btn" href="singapore.html">Read the reflection</a>
-        <a class="btn btn--ghost" href="resume.html">View resume</a>
-      </div>
+  <header style="border-bottom:4px solid var(--color-text)">
+    <div style="max-width:1160px;margin:0 auto;padding:22px 40px 14px;display:flex;flex-wrap:wrap;align-items:baseline;gap:16px 32px">
+      <a href="index.html" style="text-decoration:none;font-size:22px;font-weight:600;letter-spacing:0.01em">Michael McCamy</a>
+      <span style="font-size:13px;text-transform:uppercase;letter-spacing:0.16em;color:var(--color-neutral-700)">e-Portfolio · Summer 2026</span>
+      <nav style="margin-left:auto;display:flex;gap:20px;font-size:13px;text-transform:uppercase;letter-spacing:0.14em">
+        <a href="https://www.linkedin.com/in/michaelmccamy/" style="text-decoration:none;color:var(--color-neutral-700)">LinkedIn</a>
+        <a href="mailto:michael.mccamy@ufl.edu" style="text-decoration:none;color:var(--color-neutral-700)">Email</a>
+      </nav>
     </div>
+  </header>
 
-    <figure>
-      <img src="images/about-portrait.jpg" alt="Portrait of Michael in Singapore">
-      <figcaption>Replace <code>images/about-portrait.jpg</code> — keep the filename and nothing else needs editing.</figcaption>
-    </figure>
-  </section>
-
-  <section class="section" id="about">
-    <div class="section__head"><span class="section__num">01</span><h2>About me</h2></div>
-    <div class="column">
-
-      <span class="todo">Two or three paragraphs, first person. Cover: where you're from and how you got into CS; what you're drawn to technically (backend? ML? systems?); what brought you to Singapore specifically; and what you're aiming at after May 2027. This is the first thing an employer reads — keep it concrete and skip the "passionate about technology" opener. The reference portfolio does this well: it names the major, the goal, and the personal thread connecting them in about 150 words.</span>
-
-      <p>I'm a Computer Science major at the University of Florida, graduating in May 2027. <span class="todo">Add 3–4 sentences about your background and how you got into software.</span></p>
-
-      <p><span class="todo">A paragraph on what you want to build and why — and where the Singapore term fits into that.</span></p>
-
-      <h3>What I'm interested in</h3>
-      <span class="todo">The kinds of problems you like working on, plus a couple of non-technical interests. This is the part that makes you a person rather than a transcript.</span>
-
-      <h3>Professional goals</h3>
-      <span class="todo">Where you want to be in 2–5 years. Specific enough to be useful: a domain, a kind of team, a type of problem.</span>
+  <nav style="border-bottom:1px solid var(--color-divider)" aria-label="Sections">
+    <div style="max-width:1160px;margin:0 auto;padding:0 40px;display:flex;flex-wrap:wrap;gap:0 36px">
+      <a href="index.html" aria-current="page" style="display:flex;align-items:center;gap:9px;padding:14px 0;text-decoration:none;font-size:14px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-text);box-shadow:inset 0 -4px 0 #d42e12">
+        <span style="width:9px;height:9px;background:#d42e12;display:block"></span>About Me</a>
+      <a href="resume.html" style="display:flex;align-items:center;gap:9px;padding:14px 0;text-decoration:none;font-size:14px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700)">
+        <span style="width:9px;height:9px;background:#005ec4;display:block"></span>Resume</a>
+      <a href="singapore.html" style="display:flex;align-items:center;gap:9px;padding:14px 0;text-decoration:none;font-size:14px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700)">
+        <span style="width:9px;height:9px;background:#9900aa;display:block"></span>UF in Singapore</a>
+      <a href="internship.html" style="display:flex;align-items:center;gap:9px;padding:14px 0;text-decoration:none;font-size:14px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700)">
+        <span style="width:9px;height:9px;background:#009645;display:block"></span>My Internship</a>
+      <a href="skills.html" style="display:flex;align-items:center;gap:9px;padding:14px 0;text-decoration:none;font-size:14px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700)">
+        <span style="width:9px;height:9px;background:#fa9e0d;display:block"></span>Skills</a>
     </div>
-  </section>
+  </nav>
 
-  <section class="section">
-    <div class="section__head"><span class="section__num">02</span><h2>At a glance</h2></div>
-    <div class="column">
-      <ul class="facts">
-        <li><span class="k">Major</span><span>Computer Science, University of Florida</span></li>
-        <li><span class="k">Graduating</span><span>May 2027</span></li>
-        <li><span class="k">Internship</span><span>Software Engineer Intern, Fuzzy AI &mdash; Singapore</span></li>
-        <li><span class="k">Program</span><span>UF in Singapore, Summer 2026</span></li>
-        <li><span class="k">Based in</span><span><span class="todo">Hometown / current city</span></span></li>
-        <li><span class="k">Focus</span><span><span class="todo">Backend, ML, systems — whatever's true</span></span></li>
-      </ul>
-    </div>
-  </section>
+  <main style="max-width:1160px;margin:0 auto;padding:0 40px 100px">
 
-  <section class="section">
-    <div class="section__head"><span class="section__num">03</span><h2>Where to go next</h2></div>
-    <div class="grid">
-      <div class="card card--accent">
-        <h3>UF in Singapore</h3>
-        <p>The study abroad experience as a whole — culture, challenges, and what I took from it, plus my Cultural Storytelling project.</p>
-        <a href="singapore.html">Read the reflection &rarr;</a>
-      </div>
-      <div class="card card--accent">
-        <h3>My Internship</h3>
-        <p>What Fuzzy AI does, what I actually shipped there, and how I did against the goals I set before I left.</p>
-        <a href="internship.html">See the work &rarr;</a>
-      </div>
-      <div class="card card--accent">
-        <h3>Skills</h3>
-        <p>Three skills with evidence — what I built, what changed in how I work, and where each one showed up.</p>
-        <a href="skills.html">See the evidence &rarr;</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="contact">
-    <div class="section__head"><span class="section__num">04</span><h2>Get in touch</h2></div>
-    <div class="contact">
+    <div style="display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,0.85fr);gap:56px;align-items:start;padding:64px 0 0">
       <div>
-        <h2>Let's talk</h2>
-        <p>Open to software engineering internship and new-grad conversations for 2027.</p>
-        <ul class="facts" style="margin-top:1.25rem">
-          <li><span class="k">Email</span><span><a href="mailto:REPLACE@ufl.edu">REPLACE@ufl.edu</a></span></li>
-          <li><span class="k">LinkedIn</span><span><a href="https://www.linkedin.com/in/REPLACE-YOUR-HANDLE/">linkedin.com/in/REPLACE</a></span></li>
-          <li><span class="k">GitHub</span><span><a href="https://github.com/REPLACE-YOUR-USERNAME">github.com/REPLACE</a></span></li>
-        </ul>
+        <p style="margin:0 0 20px;font-size:13px;text-transform:uppercase;letter-spacing:0.2em;color:#d42e12">Computer Science · University of Florida</p><h1 style="margin:0;font-size:clamp(44px,6.5vw,84px);line-height:0.92;letter-spacing:-0.03em;font-weight:600">Michael McCamy</h1>
+        <div style="margin-top:28px;max-width:58ch"><p style="margin:0 0 20px;max-width:62ch">I'm Michael McCamy, a computer science student at the University of Florida, graduating in May 2027. I went into computer science because I have always loved technology and math, and computer science is the application of those areas to solve real world issues. What's kept me there is a specific part of the work: build something, put it in front of someone, find out fast whether it solved their problem.</p>
+        <p style="margin:0;max-width:62ch">This summer I interned at Fuzzy AI in Singapore, a small B2B startup building software that automates LinkedIn outreach. I shipped over 100 bug fixes and features, reviewed other interns' pull requests, and sat in on calls with potential customers. The team was spread across India, Australia, and Singapore, so almost all coordination ran through Slack and Google Meet. After graduation, I hope to either continue working in the startup sphere or work for a larger company where I can build software at scale.</p></div>
       </div>
+      <figure style="margin:0 0 8px">
+        <img src="images/michael.jpg" alt="Michael McCamy" style="display:block;width:100%;aspect-ratio:5/8;object-fit:cover;object-position:center bottom">
+      </figure>
+    </div>
+
+    <section style="padding:64px 0 0;display:grid;grid-template-columns:minmax(0,7ch) minmax(0,1fr);gap:0 40px">
+      <p style="margin:8px 0 0;font-size:15px;letter-spacing:0.1em;color:#d42e12">01</p>
       <div>
-        <h3>Required by the assignment</h3>
-        <p style="font-family:var(--mono);font-size:0.8125rem;line-height:1.7;color:var(--ink-soft)">The LinkedIn link has to point at your real profile. It appears in the masthead, here, and in the footer of every page — search the HTML for <code>REPLACE-YOUR-HANDLE</code> and replace all of them.</p>
-        <div class="btn-row" style="margin-top:1.25rem">
-          <a class="btn" href="https://www.linkedin.com/in/REPLACE-YOUR-HANDLE/">Connect on LinkedIn</a>
+        <h2 style="margin:0 0 26px;font-size:34px;line-height:1.15;letter-spacing:-0.015em">At a Glance</h2>
+        <dl style="margin:0;max-width:64ch">
+          <div style="padding:14px 0;border-bottom:1px solid var(--color-divider);display:flex;gap:16px"><dt style="flex:0 0 10rem;font-size:13px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700);padding-top:3px">Program</dt><dd style="margin:0;font-size:17px">UF in Singapore, Summer 2026</dd></div>
+          <div style="padding:14px 0;border-bottom:1px solid var(--color-divider);display:flex;gap:16px"><dt style="flex:0 0 10rem;font-size:13px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700);padding-top:3px">Host company</dt><dd style="margin:0;font-size:17px">Fuzzy AI, Singapore</dd></div>
+          <div style="padding:14px 0;border-bottom:1px solid var(--color-divider);display:flex;gap:16px"><dt style="flex:0 0 10rem;font-size:13px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700);padding-top:3px">Major</dt><dd style="margin:0;font-size:17px">B.S. Computer Science, expected May 2027</dd></div>
+          <div style="padding:14px 0;border-bottom:1px solid var(--color-divider);display:flex;gap:16px"><dt style="flex:0 0 10rem;font-size:13px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700);padding-top:3px">Based</dt><dd style="margin:0;font-size:17px">Gainesville, Florida</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="contact" style="padding:64px 0 0;display:grid;grid-template-columns:minmax(0,7ch) minmax(0,1fr);gap:0 40px">
+      <p style="margin:8px 0 0;font-size:15px;letter-spacing:0.1em;color:#d42e12">02</p>
+      <div>
+        <h2 style="margin:0 0 20px;font-size:34px;line-height:1.15;letter-spacing:-0.015em">Get in Touch</h2>
+        <p style="margin:0 0 26px;max-width:52ch;font-size:19px;color:var(--color-neutral-800)">Happy to talk about the program, the internship, or anything I've written here.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:14px">
+          <a href="mailto:michael.mccamy@ufl.edu" class="btn btn-primary" style="text-decoration:none">michael.mccamy@ufl.edu</a>
+          <a href="https://www.linkedin.com/in/michaelmccamy/" class="btn btn-secondary" style="text-decoration:none">LinkedIn</a>
+          <a href="https://github.com/michaelmccamy" class="btn btn-secondary" style="text-decoration:none">GitHub</a>
         </div>
       </div>
+    </section>
+
+  </main>
+
+  <footer style="border-top:1px solid var(--color-divider)">
+    <div style="max-width:1160px;margin:0 auto;padding:24px 40px 48px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px;font-size:13px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-neutral-700)">
+      <p style="margin:0">Michael McCamy · UF in Singapore · Summer 2026</p>
+      <p style="margin:0"><a href="https://www.linkedin.com/in/michaelmccamy/" style="color:var(--color-neutral-700)">LinkedIn</a> · <a href="mailto:michael.mccamy@ufl.edu" style="color:var(--color-neutral-700)">Email</a></p>
     </div>
-  </section>
+  </footer>
 
-</main>
-
-<footer class="footer">
-  <div class="wrap footer__inner">
-    <p>Michael &middot; UF in Singapore e-Portfolio &middot; Summer 2026</p>
-    <p><a href="https://www.linkedin.com/in/REPLACE-YOUR-HANDLE/">LinkedIn</a> &middot; <a href="https://github.com/REPLACE-YOUR-USERNAME">GitHub</a> &middot; <a href="mailto:REPLACE@ufl.edu">Email</a></p>
-  </div>
-</footer>
-
+</div>
+</x-dc>
 </body>
 </html>

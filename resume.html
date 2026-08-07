@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resume — Michael</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=JetBrains+Mono:wght@400;600&family=Newsreader:opsz,wght@6..72,300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="line-ew">
+
+<header class="masthead">
+  <div class="wrap masthead__inner">
+    <a class="brand" href="index.html">Michael <span>/</span> UF in Singapore</a>
+    <p class="social" style="margin-left:auto">
+      <a href="https://www.linkedin.com/in/REPLACE-YOUR-HANDLE/">LinkedIn</a>
+      <a href="https://github.com/REPLACE-YOUR-USERNAME">GitHub</a>
+      <a href="mailto:REPLACE@ufl.edu">Email</a>
+    </p>
+  </div>
+</header>
+
+<nav class="route" aria-label="Portfolio sections">
+  <div class="wrap">
+    <ol class="route__list">
+      <li class="route__item"><a class="stop" href="index.html"><span class="stop__dot"></span><span class="stop__label">About Me</span></a></li>
+      <li class="route__item"><a class="stop" href="resume.html" aria-current="page"><span class="stop__dot"></span><span class="stop__label">Resume</span></a></li>
+      <li class="route__item"><a class="stop" href="singapore.html"><span class="stop__dot"></span><span class="stop__label">UF in Singapore</span></a></li>
+      <li class="route__item"><a class="stop" href="internship.html"><span class="stop__dot"></span><span class="stop__label">My Internship</span></a></li>
+      <li class="route__item"><a class="stop" href="skills.html"><span class="stop__dot"></span><span class="stop__label">Skills</span></a></li>
+    </ol>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <div class="pagehead">
+    <p class="eyebrow">Resume</p>
+    <h1>Resume</h1>
+    <p class="standfirst">Current as of August 2026, including my software engineering internship at Fuzzy AI in Singapore.</p>
+  </div>
+
+  <section class="section">
+    <div class="btn-row">
+      <a class="btn" href="files/michael-resume.pdf" download>Download PDF</a>
+      <a class="btn btn--ghost" href="files/michael-resume.pdf" target="_blank" rel="noopener">Open in new tab</a>
+    </div>
+    <p style="font-family:var(--mono);font-size:0.75rem;color:var(--ink-faint);max-width:56ch">Drop your resume into <code>files/</code> named <code>michael-resume.pdf</code> and both buttons work. You already rebuilt this resume with the Fuzzy AI internship and MediLens on it — that version is the one to use.</p>
+  </section>
+
+  <section class="section">
+    <div class="section__head"><span class="section__num">01</span><h2>Education</h2></div>
+    <div class="column">
+      <div class="job">
+        <div class="job__head">
+          <h3>University of Florida &mdash; B.S. Computer Science</h3>
+          <span class="job__when">Expected May 2027</span>
+        </div>
+        <p class="job__where">Gainesville, Florida</p>
+        <ul>
+          <li><span class="todo">GPA if it helps you. Relevant coursework — data structures, algorithms, operating systems, databases, whatever's real.</span></li>
+          <li>UF in Singapore study abroad program, Summer 2026.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section__head"><span class="section__num">02</span><h2>Experience</h2></div>
+    <div class="column">
+
+      <div class="job">
+        <div class="job__head">
+          <h3>Software Engineer Intern &mdash; Fuzzy AI</h3>
+          <span class="job__when"><span class="todo">Dates</span></span>
+        </div>
+        <p class="job__where">Singapore</p>
+        <ul>
+          <li><span class="todo">Bullet 1 — lead with the strongest thing you shipped. Format: verb + what you built + the stack + the measurable result. "Built X using Y, which cut Z by N%."</span></li>
+          <li><span class="todo">Bullet 2 — a different kind of contribution (debugging, testing, code review, working across a team).</span></li>
+          <li><span class="todo">Bullet 3 — scale or impact. Users served, records processed, latency improved, tests added.</span></li>
+          <li><span class="todo">Bullet 4 — optional, something collaborative or cross-cultural.</span></li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job__head">
+          <h3><span class="todo">Any earlier role — previous internship, campus job, research, TA</span></h3>
+          <span class="job__when"><span class="todo">Dates</span></span>
+        </div>
+        <p class="job__where"><span class="todo">Location</span></p>
+        <ul>
+          <li><span class="todo">Delete this whole block if you don't have a second role yet.</span></li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section__head"><span class="section__num">03</span><h2>Projects</h2></div>
+    <div class="column">
+
+      <div class="job">
+        <div class="job__head">
+          <h3>MediLens &mdash; clinical documentation validator</h3>
+          <span class="job__when"><span class="todo">Dates</span></span>
+        </div>
+        <p class="job__where">Python 3.11 &middot; Anthropic API</p>
+        <ul>
+          <li>Payer-aware clinical coding and documentation validation tool that flags documentation sufficiency and denial risk before a claim is submitted, targeted at orthopedics and pain medicine.</li>
+          <li>Built on a fail-closed design where every recommendation must cite the specific span of the clinical note it came from; developed and evaluated entirely on synthetic and de-identified data.</li>
+          <li><span class="todo">Add a link to the repo if it's public, or a short line about results/evals if it isn't.</span></li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job__head">
+          <h3><span class="todo">Second project — coursework, hackathon, or side build</span></h3>
+          <span class="job__when"><span class="todo">Dates</span></span>
+        </div>
+        <p class="job__where"><span class="todo">Stack</span></p>
+        <ul><li><span class="todo">One or two bullets. Delete the block if you'd rather keep this page tight.</span></li></ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section__head"><span class="section__num">04</span><h2>Technical skills</h2></div>
+    <div class="column">
+      <ul class="facts">
+        <li><span class="k">Languages</span><span><span class="todo">Python, Java, C, JavaScript…</span></span></li>
+        <li><span class="k">Frameworks</span><span><span class="todo">React, Flask, FastAPI…</span></span></li>
+        <li><span class="k">Tools</span><span><span class="todo">Git, Docker, pytest, Postgres…</span></span></li>
+        <li><span class="k">Coursework</span><span><span class="todo">Data structures, algorithms, OS, databases…</span></span></li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <p>Michael &middot; UF in Singapore e-Portfolio &middot; Summer 2026</p>
+    <p><a href="https://www.linkedin.com/in/REPLACE-YOUR-HANDLE/">LinkedIn</a> &middot; <a href="https://github.com/REPLACE-YOUR-USERNAME">GitHub</a> &middot; <a href="mailto:REPLACE@ufl.edu">Email</a> &middot; <a href="index.html#contact">Contact</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
